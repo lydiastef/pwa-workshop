@@ -1,0 +1,33 @@
+{
+    "name": "Simple workshop project",
+    "short_name": "Workshop",
+    "start_url": ".",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#1282A2",
+    "background_color": "#ffffff",
+    "description": "Try out pwa",
+
+    "icons": [
+
+        {
+        "src": "iconflowers48.png",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "any"
+        },
+        {
+        "src": "/iconflowers144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "any"
+        },
+        {
+        "src": "/iconflowers192.png",
+        "type": "image/svg",
+        "sizes": "192x192",
+        "purpose": "any"
+        }
+    ]
+  }
+  

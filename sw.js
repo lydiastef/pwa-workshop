@@ -3,6 +3,7 @@ const urlsToCache = [
   '/',
   '/index.html',
   '/style.css',
+  '/page.html'
 ]; //What we want to cashe in this tiny project
 
 // Install event - When the service worker is first installed, it opens a cache storage and adds specified files to it.

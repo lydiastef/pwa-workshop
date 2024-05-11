@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive Web App Workshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to this Workshop</h1>
+    <p>This is a basic PWA example.</p>
+
+    <a class="ahref" href="page.html">Next page</a>
+
+    <p>What?</p>
+
+
+    
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+            }).catch(function(err) {
+                console.log(err);
+            });
+        });
+    } else {
+        console.log('Service Worker is not supported by this browser.');
+    }
+    </script>
+
+</body>
+</html>
